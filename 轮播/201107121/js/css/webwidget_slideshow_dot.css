@@ -1,15 +1,6 @@
-/*
- * 轮播图
- * authoer:Conan;
- * date:2015/10/20;
- */
-
-#g-slide{
-	position: relative;
-	height: 360px;
-}
+/*  父元素div  */
 .webwidget_slideshow_dot{
-    /*position: relative;*/
+    position: relative;
     padding: 0px;
     margin: 0px;
 }
@@ -18,10 +9,10 @@
 }
 
 .webwidget_slideshow_dot .slides_box{
-    position: absolute;
-    overflow: hidden;
     padding: 0px;
     margin: 0px;
+    overflow: hidden;
+    position: absolute;
 }
 
 /*  文字显示  */

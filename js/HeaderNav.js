@@ -25,20 +25,20 @@ window.onload = function()
 	// var oList = document.getElementById('list'),
 	// 	oLiItem = oList.getElementsByTagName('li');
 	// 	console.log(oLiItem.textContent);
-	var oList = oHeader.getElementsByClassName('u-nav-child')[0],
-	oLiItem = oList.getElementsByTagName('li');
-	console.log(oLiItem.textContent);
+	// var oList = oHeader.getElementsByClassName('u-nav-child')[0],
+	// oLiItem = oList.getElementsByTagName('li');
+	// console.log(oLiItem.textContent);
 
-	var oSlide = document.getElementById('g-slide'),
-		oUl = oSlide.getElementsByTagName('ul')[0],
-		oLi = oSlide.getElementsByTagName('ul')[0].getElementsByTagName('li');
-		for (var i = 0; i < oLi.length; i++) {
-			oLi[i].textContent = oLiItem[i].textContent;
-		};
+	// var oSlide = document.getElementById('g-slide'),
+	// 	oUl = oSlide.getElementsByTagName('ul')[0],
+	// 	oLi = oSlide.getElementsByTagName('ul')[0].getElementsByTagName('li');
+	// 	for (var i = 0; i < oLi.length; i++) {
+	// 		oLi[i].textContent = oLiItem[i].textContent;
+	// 	};
 
-	function getNav(){
-		for (var i = 0; i < oLi.length; i++) {
-			oLi[i].textContent = oLiItem[i].textContent;
-		};
-	}
+	// function getNav(){
+	// 	for (var i = 0; i < oLi.length; i++) {
+	// 		oLi[i].textContent = oLiItem[i].textContent;
+	// 	};
+	// }
 }
