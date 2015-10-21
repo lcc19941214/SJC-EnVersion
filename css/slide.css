@@ -27,7 +27,7 @@
 /*  文字显示  */
 .webwidget_slideshow_dot .title_thumb_box{
     position: absolute;
-    right: 0;
+    right: -375px;
     bottom: 0;
     width: 305px;
     height: 360px;
@@ -38,7 +38,10 @@
 .webwidget_slideshow_dot .title_thumb_box .title_box{
     position: relative;
     margin-top:85px;
-    font:700 32px/56px Georgia,Arial,Sans-Serif;
+    height: 200px;
+    overflow: hidden;
+    text-overflow: clip;
+    font:700 32px/1.6em Georgia,Arial,Sans-Serif;
     text-align: right;
 }
 

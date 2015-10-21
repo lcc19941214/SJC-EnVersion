@@ -4,19 +4,18 @@
 <head>
 	<title>School of Journalism and Communication of Wuhan University</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="" />
+	<meta name="description" content="School of Journalism and Communication of Wuhan University" />
 	<link href="favicon.ico" rel="icon" type="image/x-icon" />
 	<link rel="stylesheet" href="css/reset.css" />
 	<link rel="stylesheet" href="css/header.css" />
 	<link rel="stylesheet" href="css/slide.css" />
 	<link rel="stylesheet" href="css/footer.css" />
-	<!-- <link rel="stylesheet" type="text/css" href="css/webwidget_slideshow_dot.css"> -->
 	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
 </head>
 <body>
 	<div id="g-container">
 		<!-- HeaderBegins -->
-		<?php include "header.php"; ?>
+		<?php require_once "header.php"; ?>
 		<!-- HeaderEnds -->
 		<!-- SlideBegins -->
 		<div id="g-slide">
@@ -26,7 +25,7 @@
 			        $(function() {
 			            $("#g-slide").webwidget_slideshow_dot({
 			                slideshow_time_interval: '3500',
-			                slideshow_window_width: '980',
+			                slideshow_window_width: '605',
 			                slideshow_window_height: '360',
 			                slideshow_title_color: '#fff',
 			                soldeshow_foreColor: '#287ea6',
@@ -37,23 +36,23 @@
 			<div id="g-slide" class="webwidget_slideshow_dot">
 			    <ul>
 			        <li>
-			            <a href="link1" title="Deng Kaiyuan: A Rocking Dream Chaser">
-			                <img src="images/slideshow_large_1.jpg" width="605" height="360" alt="slideshow_large"/>
+			            <a href="javascript:;" title="Deng Kaiyuan: A Rocking Dream Chaser">
+			                <img src="images/slideshow/slide_1.jpg" alt="slideshow/slide"/>
 			            </a>
 			        </li>
 			        <li>
-			            <a href="link2" title="Sea">
-			                <img src="images/slideshow_large_2.jpg" width="605" height="360" alt="slideshow_large"/>
+			            <a href="javascript:;" title="We Now Get A Wonderful Achievement">
+			                <img src="images/slideshow/slide_2.jpg" alt="slideshow/slide"/>
 			            </a>
 			        </li>
 			        <li>
-			            <a href="link3" title="Flower">
-			                <img src="images/slideshow_large_3.jpg" width="605" height="360" alt="slideshow_large"/>
+			            <a href="javascript:;" title="A Rocking Dream Chaseeng Kaiyuan">
+			                <img src="images/slideshow/slide_3.jpg" alt="slideshow/slide"/>
 			            </a>
 			        </li>
 			        <li>
-			            <a href="link4" title="Treelink4">
-			                <img src="images/slideshow_large_4.jpg" width="605" height="360" alt="slideshow_large"/>
+			            <a href="javascript:;" title="A Wonderful Achievement We Now Get A Wonderful Achievement We Now Get ">
+			                <img src="images/slideshow/slide_4.jpg" alt="slideshow/slide"/>
 			            </a>
 			        </li>
 			    </ul>
@@ -64,7 +63,7 @@
 		<div id="g-content"></div>
 	</div>
 	<!-- FooterBegins footer在container之后-->
-	<?php include "footer.php"; ?>
+	<?php require_once "footer.php"; ?>
 	<!-- FooterEnds -->
 </body>
 </html>

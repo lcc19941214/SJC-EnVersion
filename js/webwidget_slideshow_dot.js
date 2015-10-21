@@ -3,6 +3,7 @@
         var p=p||{};
 
         var m=p&&p.slideshow_time_interval?p.slideshow_time_interval:"2000";
+        //  q宽  r高
         var q=p&&p.slideshow_window_width?p.slideshow_window_width:"400";
         var r=p&&p.slideshow_window_height?p.slideshow_window_height:"400";
         var sf=p&&p.soldeshow_foreColor?p.soldeshow_foreColor:"#000";
@@ -22,6 +23,7 @@
         play();
         function init(){
             x.find("ul:first").wrap('<div class="slides_box"></div>');
+            // 把x.css('width',q)修改成x.css("width",r),可以让文字部分显示在左边
             x.css("width",q).css("height",r);
             x.find(".slides_box").css("width",q).css("height",r);
             x.find("ul:first").width(parseInt(q)*y);

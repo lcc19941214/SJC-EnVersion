@@ -3,7 +3,9 @@
         var p=p||{};
 
         var m=p&&p.slideshow_time_interval?p.slideshow_time_interval:"2000";
+        // 图片长 q
         var q=p&&p.slideshow_window_width?p.slideshow_window_width:"400";
+        // 图片宽 r
         var r=p&&p.slideshow_window_height?p.slideshow_window_height:"400";
         var sf=p&&p.soldeshow_foreColor?p.soldeshow_foreColor:"#000";
         var stc=p&&p.slideshow_title_color?p.slideshow_title_color:"#17CCCC";

@@ -11,7 +11,8 @@ window.onload = function()
 		oNav = oHeader.getElementsByClassName('u-nav')[0],
 		oNavLi = oHeader.getElementsByClassName('u-nav-li');
 
-	for (var i = 0; i < oNavLi.length; i++) {
+	for (var i = 1; i < oNavLi.length; i++) {
+		// i从1开始而不是从0开始，因为i==0时，home没有child
 		oNavLi[i].onmouseover = function(){
 			var oLiChild = this.getElementsByClassName('u-nav-child')[0];
 			oLiChild.className += " hover";
