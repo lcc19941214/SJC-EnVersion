@@ -1,3 +1,4 @@
+<?php include 'common/config.php';?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- 使用过渡版本transitional解决兼容问题 -->
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
@@ -14,28 +15,10 @@
 	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
 </head>
 <body>
-	<?php include 'common/config.php';?>
 	<div id="g-container">
-		<!-- HeaderBegins -->
 		<?php 
 		require_once "common/header.php"; ?>
-		<!-- HeaderEnds -->
-		<!-- SlideBegins -->
 		<div id="g-slide">
-			<!-- 引用轮播图 -->
-			<script type="text/javascript" src="js/webwidget_slideshow_dot.js"></script>
-			<script language="javascript" type="text/javascript">
-			        $(function() {
-			            $("#g-slide").webwidget_slideshow_dot({
-			                slideshow_time_interval: '3500',
-			                slideshow_window_width: '605',
-			                slideshow_window_height: '360',
-			                slideshow_title_color: '#fff',
-			                soldeshow_foreColor: '#287ea6',
-			                directory: 'images/'
-			            });
-			        });
-			</script>
 			<div id="g-slide" class="webwidget_slideshow_dot">
 				<ul>
 					<li>
@@ -61,127 +44,168 @@
 				</ul>
 				<div style="clear: both"></div>
 			</div>
+			<!-- 引用轮播图 -->
+			<script type="text/javascript" src="js/webwidget_slideshow_dot.js"></script>
+			<script language="javascript" type="text/javascript">
+			        $(function() {
+			            $("#g-slide").webwidget_slideshow_dot({
+			                slideshow_time_interval: '3500',
+			                slideshow_window_width: '605',
+			                slideshow_window_height: '360',
+			                slideshow_title_color: '#fff',
+			                soldeshow_foreColor: '#287ea6',
+			                directory: 'images/'
+			            });
+			        });
+			</script>
 		</div>
-		<!-- SlideEnds -->
-		<!-- ContentBegings -->
 		<div id="g-content">
-			<div class="m-left">
-				<div class="u-news">
-					News&amp;Information
-					<span class="readmore1">Read more&gt;</span>
-				</div>
-
-				<div class="u-newsphoto">
-					<img src="images/news01.jpg" alt="news01" width="234" height="155"></div>
-
-				<div class="u-title">
-					<p>The Speech about Learing from Xi</p>
-					<p>Ended Successfully</p>
-				</div>
-
-				<div class="u-content">
-					A team at Wuhan University won the championship at 2015 Modal APEC held from 24th to 27th August at Beijing International is opening up once ...
-				</div>
-
-				<div class="u-newslist">
-					<ul>
-						<li class="u-newslists">
-							<img src="images/circle.png" />
-							Professor Xin Xu's Artical on Bird Analysis Published on ..
-							<span class="u-newsdate">12 October ,2015</span>
-						</li>
-						<li class="u-newslists">
-							<img src="images/circle.png" />
-							Academician Roger Owen Talks about Finite Element
-							<span class="u-newsdate">12 October ,2015</span>
-						</li>
-						<li class="u-newslists">
-							<img src="images/circle.png" />
-							Professor Gong Jianya Leads Chinese First International...
-							<span class="u-newsdate">12 October ,2015</span>
-						</li>
-						<li class="u-newslists">
-							<img src="images/circle.png" />
-							The Famous Chemist Yaghi Lectures on New Materials
-							<span class="u-newsdate">12 October ,2015</span>
-						</li>
-						<li class="u-newslists">
-							<img src="images/circle.png" />
-							Remote Sensing Research of Syria Conflict on UN’s Briefing
-							<span class="u-newsdate">12 October ,2015</span>
-						</li>
-					</ul>
-
-				</div>
-			</div>
 			<div class="m-right">
-				<div class="u-news">
-					Acdemics&amp;Research
-					<span class="readmore">Read more</span>
-				</div>
-
-				<div class="grey-square">
-					<img src="images/grey square.jpg" />
-				</div>
-
-				<div class="month">Oct.</div>
-
-				<div class="date">22</div>
-
-				<div class="u-title">Lecture Notice</div>
-
-				<div class="u-newscontent">
-					Nowadays, China is opening up once more, sending young people abroad and...
-				</div>
-
-				<div class="grey-square">
-					<img src="images/grey square.jpg" />
-				</div>
-
-				<div class="month2">Oct.</div>
-
-				<div class="date2">21</div>
-
-				<div class="u-title2">Meeting Notice</div>
-
-				<div class="u-newscontent2">
-					Nowadays, China is opening up once more, sending young people abroad and...
-				</div>
-
-				<div class="grey-square">
-					<img src="images/grey square.jpg" />
-				</div>
-
-				<div class="month3">Oct.</div>
-
-				<div class="date3">20</div>
-
-				<div class="u-title3">Meeting Notice</div>
-
-				<div class="u-newscontent3">
-					Nowadays, China is opening up once more, sending young people abroad and...
-				</div>
-
-				<div class="grey-square">
-					<img src="images/grey square.jpg" />
-				</div>
-
-				<div class="month4">Oct.</div>
-
-				<div class="date4">18</div>
-
-				<div class="u-title4">Meeting Notice</div>
-
-				<div class="u-newscontent4">
-					Nowadays, China is opening up once more, sending young people abroad and...
-				</div>
+				<h2>
+					<a href="javascript:;">Academics&amp;Research</a>
+					<span>
+						<a href="javascript:;">Read more&gt;</a>
+					</span>
+				</h2>
+				<ul class="u-academlist">
+					<li>
+						<a href="javascript:;">
+							<dl>
+								<div class="u-calender">
+									<p>Oct.</p>
+									<p> <strong>10</strong>
+									</p>
+								</div>
+								<dt>Lecture Notice</dt>
+								<dd>
+									Nowadays, China is opening up once more, sending young people abroad to sending young people abroad to
+								</dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<dl>
+								<div class="u-calender">
+									<p>Oct.</p>
+									<p> <strong>10</strong>
+									</p>
+								</div>
+								<dt>Lecture Notice</dt>
+								<dd>
+									Nowadays, China is opening up once more, sending young people abroad to sending young people abroad to
+								</dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<dl>
+								<div class="u-calender">
+									<p>Oct.</p>
+									<p>
+										<strong>10</strong>
+									</p>
+								</div>
+								<dt>Lecture Notice</dt>
+								<dd>
+									Nowadays, China is opening up once more, sending young people abroad to sending young people abroad to
+								</dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<dl>
+								<div class="u-calender">
+									<p>Oct.</p>
+									<p>
+										<strong>10</strong>
+									</p>
+								</div>
+								<dt>Lecture Notice</dt>
+								<dd>
+									Nowadays, China is opening up once more, sending young people abroad to sending young people abroad to
+								</dd>
+							</dl>
+						</a>
+					</li>
+				</ul>
 			</div>
-
-		</div>
-		<!-- ContentEnds -->
+			<div class="m-left">
+				<h2>
+					<a href="javascript:;">News &amp; Information</a>
+					<span>
+						<a href="javascript:;">Read more&gt;</a>
+					</span>
+				</h2>
+				<dl class="u-recomm">
+					<a href="javascript:;">
+						<img src="<?php echo $siteurl ; ?>images/news01.jpg" alt="news &amp; information" /></a>
+					<a href="javascript:;">
+						<h3>The Speech about Learing from Xi Ended Successfully</h3>
+					</a>
+					<p class="u-recoomText">
+						A team at Wuhan University won the championship at 2015 Modal APEC held from 24th to 27th August at Beijing International is opening up once A team at Wuhan University won the championship at 2015 Modal APEC held from 24th to 27th August at Beijing International is opening up once
+					</p>
+				</dl>
+				<ul class="u-newslist">
+					<li>
+						<a href="javascript:;">
+							<p> <i></i>
+								Professor Xin Xu's Artical on Bird Analysis Published on Professor Xin Xu's Artical on Bird Analysis Published on
+							</p>
+							<span class="u-newsdate">12 October ,2015</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<p> <i></i>
+								Academician Roger Owen Talks about Finite Element Professor Xin Xu's Artical on Bird Analysis Published on
+							</p>
+							<span class="u-newsdate">12 October ,2015</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<p>
+								<i></i>
+								Professor Gong Jianya Leads Chinese First International Professor Xin Xu's Artical on Bird Analysis Published on
+							</p>
+							<span class="u-newsdate">12 October ,2015</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<p>
+								<i></i>
+								The Famous Chemist Yaghi Lectures on New Materials Professor Xin Xu's Artical on Bird Analysis Published on
+							</p>
+							<span class="u-newsdate">12 October ,2015</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<p>
+								<i></i>
+								Remote Sensing Research of Syria Conflict on UN’s Briefing Professor Xin Xu's Artical on Bird Analysis Published on
+							</p>
+							<span class="u-newsdate">12 October ,2015</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<script type="text/javascript" src="js/clamp.js"></script>
+			<script type="text/javascript">
+				var recoomText = document.getElementById('g-content').getElementsByClassName('u-recoomText')[0],
+            		academText = document.getElementsByTagName('body')[0].getElementsByClassName('u-academlist')[0].getElementsByTagName('dd');
+        		
+        		$clamp(recoomText, {clamp: 4, useNativeClamp: false});
+        		for (var i = 0; i < academText.length; i++) {
+        			$clamp(academText[i], {clamp: 2, useNativeClamp: false});
+        		};
+			</script></div>
 	</div>
-	<!-- FooterBegins footer在container之后-->
 	<?php require_once "common/footer.php"; ?>
-	<!-- FooterEnds -->
 </body>
 </html>

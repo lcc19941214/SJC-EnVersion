@@ -14,6 +14,7 @@ body{
 	width: 980px;
 	/*  height: 不设置高度  */
 	margin: 0 auto;
+	padding-bottom: 60px;
 }
 
 #g-header{
@@ -28,7 +29,9 @@ body{
 	right: 0;
 	top:54px;
 }
-
+#g-header .ChineseVersion:hover{
+	text-decoration: underline;
+}
 #g-header .m-nav{
 	position: relative;
 	margin-top: 38px;

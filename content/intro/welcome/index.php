@@ -1,3 +1,4 @@
+<?php include '../../../common/config.php';?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- 使用过渡版本transitional解决兼容问题 -->
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
@@ -5,7 +6,7 @@
 	<title>About SJC | School of Journalism and Communication of Wuhan University</title> 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="School of Journalism and Communication of Wuhan University" />
-	<link href="../../../favicon.ico" rel="icon" type="image/x-icon" />
+	<link href="<?php echo $siteurl;?>favicon.ico" rel="icon" type="image/x-icon" />
 	<link rel="stylesheet" href="../../../css/reset.css" />
 	<link rel="stylesheet" href="../../../css/header.css" />
 	<link rel="stylesheet" href="../../../css/footer.css" />
@@ -13,7 +14,6 @@
 	<script type="text/javascript" src="../../../js/jquery-1.3.2.min.js"></script>
 </head>
 <body>
-	<?php include '../../../common/config.php';?>
 	<div id="g-container">
 		<!-- HeaderBegins -->
 		<?php require_once "../../../common/header.php"; ?>

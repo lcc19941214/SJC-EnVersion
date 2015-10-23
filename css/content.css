@@ -1,83 +1,166 @@
+/*  recomm，缩略文字部分，非webkit hack 用clampde的js方法  */
+/*  academlist dd，缩略文字部分，非webkit hack 用clampde的js方法  */
+
 #g-content{
 	position: relative;
+	padding-top: 29px;
 	padding-right:407px;
 }
-
-.m-left
-{
-	width:573px;
+.m-left,{
+	/*width:573px;*/
 }
-.u-news
-{
-	width: 573px;
+.m-right{
+	float: right;
+	width: 347px;
+	margin-right:-407px;
+}
+.m-left h2, .m-right h2{
+	position: relative;
 	margin-bottom: 33px;
-	padding bottom:15px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 22px;
-	color: #287ea6;
-	border-bottom: 1px solid #aaa;
-	font-weight: bold;
 }
- .readmore1 {
-	font-family: Arial, Helvetica, sans-serif;
+.m-left h2>a ,.m-right h2>a{
+	display: block;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #aaa;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 1em;
+	color: #287ea6;
+}
+.m-left h2 span>a ,.m-right h2 span>a{
+	position: absolute;
+	right: 0;
+	bottom:10px;
 	font-size: 12px;
+	font-weight: normal;
 	color: #999;
 	text-align: right;
-	font-weight: normal;
-	margin-left:270px;
 }
-.u-newsphoto
-{
-	width:234px;
-	height:155px;
-	margin-right:18px;
+.m-left h2 span>a:hover ,.m-right h2 span>a:hover{
+	text-decoration: underline;
 }
-
-.u-title
-{
-	font-family: Arial, Helvetica, sans-serif;
+.m-left .u-recomm{
+	position: relative;
+	height: 155px;
+	padding: 0 0 23px 252px;
+}
+.m-left .u-recomm img{
+	float: left;
+	margin-left:-252px;
+	width: 234px;
+	height: 155px;
+}
+.m-left .u-recomm h3{
 	font-size: 18px;
-	line-height: 10px;
-	color: #287ea6;
 	font-weight: bold;
-	position: absolute;
-	left: 434px;
-	top: 82px;
+	line-height: 24px;
+	color: #287ea6;
 }
-
-.u-content
-{
+.m-left .u-recomm a:hover h3{
+text-decoration: underline;
+}
+.m-left .u-recomm p{
+	/*  ellipsis  webkit  */
+	display: -webkit-box;    
+    -webkit-box-orient: vertical;
+	-webkit-line-clamp:4;
+    /*  非webkit hack 用clampde的js方法  */
+	margin-top: 17px;
 	font-size: 16px;
-	font-family: Arial, Helvetica, sans-serif;
 	line-height: 24px;
 	color: #666666;
-	width: 303px;
-	position: absolute;
-	left: 434px;
-	top: 160px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.m-left .u-newslist{
+	position: relative;
+	border-top: 1px solid #ccc;
+}
+.m-left .u-newslist li{
+	position: relative;
+	border-bottom: 1px solid #ccc;
+}
+.m-left .u-newslist li a{
+	color: #333;
+}
+.m-left .u-newslist li a:hover{
+	color: #777;
+}
+.m-left .u-newslist li i{
+	display: inline-block;
+	font-size: 0;
+	width: 6px;
+	height: 6px;
+	border-radius: 8px;
+	background-color: #287ea6;
+	vertical-align: middle;
+	margin-right: 7px;
+}
+.m-left .u-newslist li p{
+	display: inline-block;
+	width: 400px;
+	line-height: 2em;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;	
 }
 
-.u-newslist
-{
-	margin-top: 32px;
-	margin-left:-40px;
-	
-}
-	
-	
-.u-newsdate {
-	font-family: Arial, Helvetica, sans-serif;
+.m-left .u-newslist .u-newsdate{
+	float: right;
 	font-size: 14px;
+	line-height: 2em;
 	color: #999;
 	text-align: right;
-	position:absolute;
-	left:640px;
 }
-.u-newslists {
-	font-family: Arial, Helvetica, sans-serif;
+
+.m-right .u-academlist{
+	position: relative;
+}
+.m-right .u-academlist li{
+	padding-left: 80px;/*  25+ 54  */
+}
+.m-right .u-academlist li+li{
+	margin-top:30px;
+}
+.m-right .u-academlist li dl:hover dt{
+	text-decoration: underline;
+}
+.m-right .u-academlist dt{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 24px;
+	color: #287ea6;
+}
+.m-right .u-academlist dd{
+	margin-top: 4px;
+	/*  ellipsis  webkit  */
+	display: -webkit-box;    
+    -webkit-box-orient: vertical;
+	-webkit-line-clamp:2;
+    /*  非webkit hack 用clampde的js方法  */
 	font-size: 14px;
-	line-height: 29px;
+	line-height: 18px;
+	color: #666;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.m-right .u-calender{
+	float: left;
+	margin-left: -80px;
+	width: 54px;
+	height: 50px;
+	padding-top:10px;
+	background-color: #999;
+	text-align: center;
+}
+.m-right .u-calender p{
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.2em;
+	color: #eee;
+}
+.m-right .u-calender p strong{
+	font-size: 25px;
+	line-height: 1.2em;
 	color: #333;
-	border-bottom:1px solid #aaa;
-	list-style:none;
 }
