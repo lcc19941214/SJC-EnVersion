@@ -1,0 +1,83 @@
+#g-content{
+	position: relative;
+	padding-right:407px;
+}
+
+.m-left
+{
+	width:573px;
+}
+.u-news
+{
+	width: 573px;
+	margin-bottom: 33px;
+	padding bottom:15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #287ea6;
+	border-bottom: 1px solid #aaa;
+	font-weight: bold;
+}
+ .readmore1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999;
+	text-align: right;
+	font-weight: normal;
+	margin-left:270px;
+}
+.u-newsphoto
+{
+	width:234px;
+	height:155px;
+	margin-right:18px;
+}
+
+.u-title
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 10px;
+	color: #287ea6;
+	font-weight: bold;
+	position: absolute;
+	left: 434px;
+	top: 82px;
+}
+
+.u-content
+{
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 24px;
+	color: #666666;
+	width: 303px;
+	position: absolute;
+	left: 434px;
+	top: 160px;
+}
+
+.u-newslist
+{
+	margin-top: 32px;
+	margin-left:-40px;
+	
+}
+	
+	
+.u-newsdate {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #999;
+	text-align: right;
+	position:absolute;
+	left:640px;
+}
+.u-newslists {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 29px;
+	color: #333;
+	border-bottom:1px solid #aaa;
+	list-style:none;
+}

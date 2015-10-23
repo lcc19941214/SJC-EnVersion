@@ -6,7 +6,7 @@
  */
 
 body{
-	background: url(../images/body-bgimg.png) repeat-x fixed; 
+	background: url(../images/body-bgimg.png) repeat-x ; 
 }
 
 #g-container{

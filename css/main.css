@@ -1,0 +1,96 @@
+#g-main{
+	position: relative;
+	padding-left: 260px;
+	margin-bottom: 80px;
+}
+
+#g-main .m-sidenav{
+	position: relative;
+	margin-left: -260px;  
+	float: left;
+	width: 200px;
+	padding: 81px 15px 15px;
+	background-color: #287ea6;
+	color:#fff;
+}
+.m-sidenav h3{
+	position: absolute;
+	top:15px;
+	left: 0px;
+	width: 190px;
+	padding-left: 40px;
+	background-color: #063e6c;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 45px;
+}
+.m-sidenav h3 a{
+	color: #fff;
+}
+.m-sidenav h3 i{
+	position: absolute;
+	top:14px;
+	left: 15px;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url(../images/arrow_sdnav.png);
+}
+#g-main .m-sidenav ul{
+	position: relative;
+}
+.m-sidenav ul li{
+	margin-bottom: 10px;
+}
+.m-sidenav ul dl{
+
+}
+.m-sidenav ul li a{
+	display: block;
+	font-size: 14px;
+	line-height: 1.4em;
+	border-bottom: 1px solid #bbb;
+	padding-bottom: 10px;
+	color: #fff;
+}
+.m-sidenav ul li a:hover{
+	color: #063e6c;
+}
+.m-sidenav ul dd a{
+	padding-left: 1em;
+	border-bottom: none;
+	color: #ddd;
+}
+.m-sidenav ul dd:first-child a{
+	margin-top: 10px;
+}
+
+#g-main .m-content{
+
+}
+.m-content img{
+	width: 720px;
+	height: 130px;
+	margin-bottom: 20px;
+}
+.m-content .u-location{
+	/*margin-bottom: 20px;*/
+}
+.m-content .u-location a{
+	font-size: 12px;
+	color:#777;
+}
+.m-content h2{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 40px;
+	font-size: 28px;
+	line-height: 2em;
+	font-weight: 400;
+	color: #2f4f69;
+}
+.m-content .u-text p{
+	font-size: 16px;
+	line-height: 28px;
+	color: #333;
+	margin-bottom: 20px;
+}
