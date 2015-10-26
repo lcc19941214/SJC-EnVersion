@@ -43,7 +43,7 @@
 	margin-bottom: 10px;
 }
 .m-sidenav ul dl{
-
+	/*display: none;*/
 }
 .m-sidenav ul li a{
 	display: block;
@@ -55,6 +55,9 @@
 }
 .m-sidenav ul li a:hover{
 	color: #063e6c;
+}
+.m-sidenav ul li:last-child a{
+	border-bottom: none;
 }
 .m-sidenav ul dd a{
 	padding-left: 1em;
@@ -88,9 +91,41 @@
 	font-weight: 400;
 	color: #2f4f69;
 }
-.m-content .u-text p{
+.m-content .u-text h3, .m-content .u-text h4, .m-content .u-text p, .m-content .u-text table{
+	margin-bottom: 20px;
+	color: #333;
+}
+.m-content .u-text h3{
+	padding-left: 10px;
+	border-left: 4px solid #2f4f69;
+	font-size: 22px;
+	line-height: 1.4em;
+	color: #2f4f69;
+}
+.m-content .u-text h4, .m-content .u-text p{
 	font-size: 16px;
 	line-height: 28px;
-	color: #333;
-	margin-bottom: 20px;
+}
+.m-content .u-text table{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	table-layout: fixed;
+}
+.m-content .u-text table td{
+	border:1px solid #ccc;
+	padding: 10px 10px;
+	line-height: 1.4em;
+}
+.m-content .u-text .professors td:nth-child(1){
+	width: 110px;
+}
+.m-content .u-text .professors td:nth-child(4){
+	width: 170px;
+}
+.m-content .u-text .professors td:nth-child(5){
+	width: 135px;
+}
+.m-content .u-text .guestPro,.m-content .u-text .educationOffice{
+	margin-bottom: 50px;
 }

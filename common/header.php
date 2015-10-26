@@ -36,42 +36,42 @@
 				</ul>
 			</li>
 			<li class="u-nav-li">
-				<a href="<?php echo $siteurl; ?>content/departments/1">Schools &amp; Departments</a> <i></i>
+				<a href="<?php echo $siteurl; ?>content/departments/journalism.php">Schools &amp; Departments</a> <i></i>
 				<ul class="u-nav-child">
-					<a href="<?php echo $siteurl; ?>content/departments/1">
-						<li>The Department of XXXXX</li>
+					<a href="<?php echo $siteurl; ?>content/departments/journalism.php">
+						<li>The Department of Journalism</li>
 					</a>
-					<a href="<?php echo $siteurl; ?>content/departments/***">
-						<li>The Department of XXXXX</li>
+					<a href="<?php echo $siteurl; ?>content/departments/broadcastingTele.php">
+						<li>The Department of Broadcasting and Telecommunications</li>
 					</a>
-					<a href="<?php echo $siteurl; ?>content/departments/***">
-						<li>The Department of XXXXX</li>
+					<a href="<?php echo $siteurl; ?>content/departments/advertising.php">
+						<li>The Department of Advertising (including Advertising Design direction)</li>
 					</a>
-					<a href="<?php echo $siteurl; ?>content/departments/***">
-						<li>The Department of XXXXX</li>
+					<a href="<?php echo $siteurl; ?>content/departments/communication.php">
+						<li>The Department of Communication</li>
 					</a>
-					<a href="<?php echo $siteurl; ?>content/departments/***">
-						<li>The Department of XXXXX</li>
+					<a href="<?php echo $siteurl; ?>content/departments/broadcastingHost.php">
+						<li>The Department of Broadcasting and Hosting Art</li>
 					</a>
 				</ul>
 			</li>
 			<li class="u-nav-li">
-				<a href="javascirpt:;">Academics &amp; Research</a>
+				<a href="<?php echo $siteurl;?>content/academics/labs.php">Academics &amp; Research</a>
 				<i></i>
 				<ul class="u-nav-child">
-					<a href="javascirpt:;">
+					<a href="<?php echo $siteurl;?>content/academics/labs.php">
 						<li>LABS &amp; Research Centers</li>
 					</a>
-					<a href="javascirpt:;">
+					<a href="<?php echo $siteurl;?>content/academics/exchanges.php">
 						<li>Academic Exchanges</li>
 					</a>
-					<a href="javascirpt:;">
+					<a href="<?php echo $siteurl;?>content/academics/journals.php">
 						<li>Academic Journals</li>
 					</a>
 				</ul>
 			</li>
 			<li class="u-nav-li">
-				<a href="javascirpt:;">Contact Us</a>
+				<a href="<?php echo $siteurl;?>content/contact/index.php">Contact Us</a>
 			</li>
 		</ul>
 	</div>
