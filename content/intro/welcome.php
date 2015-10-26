@@ -1,4 +1,4 @@
-<?php include '../../../common/config.php';?>
+<?php include '../../common/config.php';?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- 使用过渡版本transitional解决兼容问题 -->
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
@@ -7,38 +7,37 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="School of Journalism and Communication of Wuhan University" />
 	<link href="<?php echo $siteurl;?>favicon.ico" rel="icon" type="image/x-icon" />
-	<link rel="stylesheet" href="../../../css/reset.css" />
-	<link rel="stylesheet" href="../../../css/header.css" />
-	<link rel="stylesheet" href="../../../css/footer.css" />
-	<link rel="stylesheet" href="../../../css/main.css" />
-	<script type="text/javascript" src="../../../js/jquery-1.3.2.min.js"></script>
+	<link rel="stylesheet" href="../../css/reset.css" />
+	<link rel="stylesheet" href="../../css/header.css" />
+	<link rel="stylesheet" href="../../css/footer.css" />
+	<link rel="stylesheet" href="../../css/main.css" />
+	<script type="text/javascript" src="../../js/jquery-1.3.2.min.js"></script>
 </head>
 <body>
 	<div id="g-container">
 		<!-- HeaderBegins -->
-		<?php require_once "../../../common/header.php"; ?>
+		<?php require_once "../../common/header.php"; ?>
 		<!-- HeaderEnds -->
 		<!-- MainBegins -->
 		<div id="g-main">
 			<div class="m-sidenav">
 				<h3>
-					<a href="<?php echo $siteurl;?>
-						content/intro/welcome"> <i></i>
+					<a href="<?php echo $siteurl;?>content/intro/welcome.php"> <i></i>
 						ABOUT SJC
 					</a>
 				</h3>
 				<ul>
 					<li>
-						<a href="<?php echo $siteurl;?>content/intro/welcome">Welcome Message</a>
+						<a href="<?php echo $siteurl;?>content/intro/welcome.php">Welcome Message</a>
 					</li>
 					<li>
-						<a href="javascript:;">General Information</a>
+						<a href="<?php echo $siteurl;?>content/intro/info.php">General Information</a>
 					</li>
 					<li>
-						<a href="javascript:;">SJC in History</a>
+						<a href="<?php echo $siteurl;?>content/intro/history.php">SJC in History</a>
 					</li>
 					<li>
-						<a href="javascript:;">Administration</a>
+						<a href="<?php echo $siteurl;?>content/intro/admin.php">Administration</a>
 						<dl>
 							<dd>
 								<a href="javascript:;">The Leaders of School Administration</a>
@@ -83,9 +82,9 @@
 				<img src="<?php echo $siteurl;?>
 				images/aboutSJC.jpg" alt="About SJC" />
 				<p class="u-location">
-					<a href="<?php echo $siteurl;?>content/intro/welcome">About SJC</a>
+					<a href="<?php echo $siteurl;?>content/intro/welcome.php">About SJC</a>
 					&nbsp;-&nbsp;
-					<a href="<?php echo $siteurl;?>content/intro/welcome">Welcome Message</a>
+					<a href="<?php echo $siteurl;?>content/intro/welcome.php">Welcome Message</a>
 				</p>
 				<h2>Welcome Message</h2>
 				<div class="u-text">
@@ -101,7 +100,7 @@
 		<!-- MainEnds -->
 	</div>
 	<!-- FooterBegins footer在container之后-->
-	 <?php require_once "../../../common/footer.php"; ?>
+	 <?php require_once "../../common/footer.php"; ?>
 	<!-- FooterEnds -->
 </body>
 </html>

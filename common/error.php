@@ -21,7 +21,7 @@
 			<img src="../images/slideshow/slide_2.jpg" alt="404 not found" />
 			<div>
 				<p><span>404</span></p>
-				<p>Sorry! The page doesn't exist.</p>
+				<p>Sorry, this page isn't here or has moverd.</p>
 			</div>
 		</div>
 	</div>

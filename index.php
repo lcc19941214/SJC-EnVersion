@@ -62,9 +62,9 @@
 		<div id="g-content">
 			<div class="m-right">
 				<h2>
-					<a href="javascript:;">Academics&amp;Research</a>
+					<a href="javascript:;">Academics &amp; Research</a>
 					<span>
-						<a href="javascript:;">Read more&gt;</a>
+						<a href="javascript:;">Read more &gt;</a>
 					</span>
 				</h2>
 				<ul class="u-academlist">
@@ -136,7 +136,7 @@
 				<h2>
 					<a href="javascript:;">News &amp; Information</a>
 					<span>
-						<a href="javascript:;">Read more&gt;</a>
+						<a href="javascript:;">Read more &gt;</a>
 					</span>
 				</h2>
 				<dl class="u-recomm">
