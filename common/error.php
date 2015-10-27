@@ -20,8 +20,8 @@
 		<div class="m-notfound">
 			<img src="../images/slideshow/slide_2.jpg" alt="404 not found" />
 			<div>
-				<p><span>404</span></p>
-				<p>Sorry, this page isn't here or has moverd.</p>
+				<!-- <p><span>404</span></p> -->
+				<p>We are sorry,<br />the page you requested<br />cannot be found.</p>
 			</div>
 		</div>
 	</div>

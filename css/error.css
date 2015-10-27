@@ -7,19 +7,21 @@
 .m-notfound div{
 	float: right;
 	width: 345px;
-	height: 300px;
-	padding-top: 60px;
+	height: 280px;
+	padding-top: 80px;
 	padding-right: 30px;
 	background-color: #287ea6;
 	text-align: right;
 }
 .m-notfound div p{
-	font-family:Helvetica,Arial,"Microsoft Yahei",sans Serif;
-	font-size: 16px;
+	font-family:Segoe UI Light, Calibri;
+	font-size: 30px;
+	font-weight: lighter;
+	line-height: 1.4em;
 	color: #fff;
 }
-.m-notfound div p span{
+/*.m-notfound div p span{
 	font-family:Georgia,Helvetica,Arial,"Microsoft Yahei",sans Serif;
 	line-height: 1.6em;
 	font-size: 62px;
-}
+}*/

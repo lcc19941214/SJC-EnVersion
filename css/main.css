@@ -3,7 +3,6 @@
 	padding-left: 260px;
 	margin-bottom: 80px;
 }
-
 #g-main .m-sidenav{
 	position: relative;
 	margin-left: -260px;  
@@ -43,7 +42,7 @@
 	margin-bottom: 10px;
 }
 .m-sidenav ul dl{
-
+	/*display: none;*/
 }
 .m-sidenav ul li a{
 	display: block;
@@ -55,6 +54,9 @@
 }
 .m-sidenav ul li a:hover{
 	color: #063e6c;
+}
+.m-sidenav ul li:last-child a{
+	border-bottom: none;
 }
 .m-sidenav ul dd a{
 	padding-left: 1em;
@@ -88,9 +90,93 @@
 	font-weight: 400;
 	color: #2f4f69;
 }
-.m-content .u-text p{
+.m-content .u-text h3, .m-content .u-text h4, .m-content .u-text p, .m-content .u-text table, .m-content .u-text dl{
+	margin-bottom: 20px;
+	color: #333;
+}
+.m-content .u-text h3{
+	padding-left: 10px;
+	border-left: 4px solid #2f4f69;
+	font-size: 22px;
+	line-height: 1.4em;
+	color: #2f4f69;
+}
+.m-content .u-text h3~h3{
+	/*  除第一行，每行h3与前一元素的间隔  */
+	margin-top:50px;
+}
+.m-content .u-text h4, .m-content .u-text p, .m-content .u-text dl{
 	font-size: 16px;
 	line-height: 28px;
-	color: #333;
-	margin-bottom: 20px;
+}
+.m-content .u-text table{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	table-layout: fixed;
+}
+.m-content .u-text table td{
+	border:1px solid #ccc;
+	padding: 10px 10px;
+	line-height: 1.4em;
+}
+.m-content .u-text .professors td:nth-child(1){
+	width: 110px;
+}
+.m-content .u-text .professors td:nth-child(4){
+	width: 170px;
+}
+.m-content .u-text .professors td:nth-child(5){
+	width: 135px;
+}
+.m-content .u-text dl dt{
+	margin-bottom:7px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+.m-content .u-text dl dt~dt{
+	margin-top: 35px;
+}
+.m-content .u-text dl dt strong{
+	color: #666;
+}
+.m-content .u-text dl dd span{
+	font-size: 18px;
+	line-height: 2em;
+	color: #666;
+}
+.m-content .u-text ul.forum{
+	padding-left: 20px;
+	border-left: 4px solid #ccc;
+}
+.m-content .u-text ul.forum~.forum{
+	margin-top: 30px;
+}
+.m-content .u-list{
+	padding-top: 30px;
+}
+.m-content .u-list li{
+	border-bottom: 1px solid #f3f3f3;
+	font-size: 14px;
+	line-height: 2em;
+}
+.m-content .u-list li:last-child{
+	border-bottom: none;
+}
+.m-content .u-list li i{
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	border-radius: 8px;
+	vertical-align: middle;
+	margin-right: 7px;
+	background-color: #287ea6;
+}
+.m-content .u-list li a:hover{
+	color: #aaa;
+}
+.m-content .u-list li a span{
+	float: right;
+	color: #aaa;
 }
