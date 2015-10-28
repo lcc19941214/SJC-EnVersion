@@ -1,7 +1,8 @@
 <div class="m-sidenav m-sidenav-fixed">
 	<h3>
-		<a href="<?php echo $siteurl;?>content/departments/labs.php"> <i></i>
-			Departments
+		<a href="<?php echo $siteurl;?>
+			content/academics/labs.php"> <i></i>
+			Academic &amp; Research
 		</a>
 	</h3>
 	<ul>
@@ -10,6 +11,27 @@
 		</li>
 		<li>
 			<a href="<?php echo $siteurl;?>content/academics/exchanges.php">Academic Exchanges</a>
+			<dl>
+				<dd>
+					<a href="<?php echo $siteurl;?>
+						content/academics/exchanges.php#interConf">International Conferences
+					</a>
+				</dd>
+				<dd>
+					<a href="<?php echo $siteurl;?>content/academics/ex_interex.php">International Exchanges</a>
+				</dd>
+				<dd>
+					<a href="<?php echo $siteurl;?>
+						content/academics/ex_overseas.php">Exchanges Between Hong Kong, Macau and Taiwan
+					</a>
+				</dd>
+				<dd>
+					<a href="<?php echo $siteurl;?>content/academics/ex_luojia.php">Luojia Forum</a>
+				</dd>
+				<dd>
+					<a href="<?php echo $siteurl;?>content/academics/ex_other.php">Other Academic Exchanges</a>
+				</dd>
+			</dl>
 		</li>
 		<li>
 			<a href="<?php echo $siteurl;?>content/academics/journals.php">Academic Journals</a>

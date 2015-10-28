@@ -4,6 +4,7 @@
  -->
 
 <div id="g-header">
+	<div class="u-header-bg"></div>
 	<a href="http://journal.whu.edu.cn/en/index.php">
 		<img src="<?php echo $siteurl; ?>images/logo.png" alt="School of Journalism and Communication of Wuhan University">
 	</a>
@@ -39,19 +40,19 @@
 				<a href="<?php echo $siteurl; ?>content/departments/journalism.php">Schools &amp; Departments</a> <i></i>
 				<ul class="u-nav-child">
 					<a href="<?php echo $siteurl; ?>content/departments/journalism.php">
-						<li>The Department of Journalism</li>
+						<li>Journalism</li>
 					</a>
 					<a href="<?php echo $siteurl; ?>content/departments/broadcastingTele.php">
-						<li>The Department of Broadcasting and Telecommunications</li>
+						<li>Broadcasting and Telecommunications</li>
 					</a>
 					<a href="<?php echo $siteurl; ?>content/departments/advertising.php">
-						<li>The Department of Advertising (including Advertising Design direction)</li>
+						<li>Advertising (including Advertising Design direction)</li>
 					</a>
 					<a href="<?php echo $siteurl; ?>content/departments/communication.php">
-						<li>The Department of Communication</li>
+						<li>Communication</li>
 					</a>
 					<a href="<?php echo $siteurl; ?>content/departments/broadcastingHost.php">
-						<li>The Department of Broadcasting and Hosting Art</li>
+						<li>Broadcasting and Hosting Art</li>
 					</a>
 				</ul>
 			</li>
@@ -71,7 +72,7 @@
 				</ul>
 			</li>
 			<li class="u-nav-li">
-				<a href="<?php echo $siteurl;?>content/contact/index.php">Contact Us</a>
+				<a href="<?php echo $siteurl;?>content/contact/contact.php">Contact Us</a>
 			</li>
 		</ul>
 	</div>

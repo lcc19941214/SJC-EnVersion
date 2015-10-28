@@ -20,23 +20,38 @@
 		<div id="g-main">
 			<?php require_once '../../common/sidenav/sdnav_academ.php'; ?>
 			<div class="m-content">
-				<img src="<?php echo $siteurl;?>
-				images/aboutSJC.jpg" alt="About SJC" />
+				<img  class="fixed"  src="<?php echo $siteurl;?>
+				images/academics.jpg" alt="Academics &amp; Research" />
 				<p class="u-location">
 					<a href="<?php echo $siteurl;?>content/intro/welcome.php">Departments</a>
 					&nbsp;-&nbsp;
-					<a href="<?php echo $siteurl;?>content/intro/welcome.php">Journalism</a>
+					<a href="<?php echo $siteurl;?>content/intro/welcome.php">Academic Exchanges</a>
 				</p>
-				<h2>The Departments of Journalism</h2>
+				<h2>Academic Exchanges</h2>
 				<div class="u-text">
-				
+					<h3 id="interConf">International Conferences</h3>
+					<p>
+						In this part, the news and contents about international academic exchanges participated by SJC will be introduced, including the sponsors, the themes and relative scholars and research results.
+					</p>
+					<dl>
+						<dt><strong>International Conference of Intercultural Communication</strong></dt>
+					</dl>
+					<p>
+						InternationalConference ofIntercultural Communicationis held by SJC and three research centers of Organizational Communication in Bordeaux, France. And it has a strong influence in academic field. According to the cooperating contract made by SJC and those French research centers, the conference has become a systematic and international one which will be held regularly by both side. And it becomes a public forum for international scholars to participate in and offers resources of ideology for intercultural communication of human beings.
+					</p>
+					<p>
+						For details, please click:
+						<a href="http://www.icchina.org"><em>http://www.icchina.org</em></a>
+					</p>
+					<dl>
+						<dt><strong>International Conference of Advertising and Cultural Communication</strong></dt>
+					</dl>
+					<p>
+						International Conference of Advertising and Cultural Communication is held by China Media Development and Research Center of Wuhan University, School of Journalism and Communication of Wuhan University and School of Journalism and Broadcasting of Sungkyunkwan University. Up to now, it has held 5 times in both China and Korea.
+					</p>
 				</div>
 			</div>
 		</div>
-		<!-- MainEnds -->
 	</div>
-	<!-- FooterBegins footer在container之后-->
-	<?php require_once "../../common/footer.php"; ?>
-	<!-- FooterEnds -->
-</body>
+	<?php require_once "../../common/footer.php"; ?></body>
 </html>

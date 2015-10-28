@@ -15,19 +15,19 @@
 			<a href="<?php echo $siteurl;?>content/intro/history.php">SJC in History</a>
 		</li>
 		<li>
-			<a href="<?php echo $siteurl;?>content/intro/admin.php" target="_blank">Administration</a>
+			<a href="<?php echo $siteurl;?>content/intro/admin.php">Administration</a>
 			<dl>
 				<dd>
-					<a href="javascript:;">The Leaders of School Administration</a>
+					<a href="<?php echo $siteurl;?>content/intro/admin.php#admin">The Leaders of School Administration</a>
 				</dd>
 				<dd>
-					<a href="javascript:;">The Leaders of School Party Committee</a>
+					<a href="<?php echo $siteurl;?>content/intro/admin.php#party">The Leaders of School Party Committee</a>
 				</dd>
 				<dd>
-					<a href="javascript:;">The Leaders of Department</a>
+					<a href="<?php echo $siteurl;?>content/intro/admin.php#depart">The Leaders of Department</a>
 				</dd>
 				<dd>
-					<a href="javascript:;">The Leaders of Research Institutes &amp; Centers</a>
+					<a href="<?php echo $siteurl;?>content/intro/admin.php#resear">The Leaders of Research Institutes &amp; Centers</a>
 				</dd>
 			</dl>
 		</li>
@@ -45,20 +45,6 @@
 				</dd>
 			</dl>
 		</li>
-		<!-- 点击加载子菜单项 -->
-		<!-- 同页面内，点击加载内容，js生效 -->
-		<script type="text/javascript">
-			// (function(){
-			// 	var subSdNavLi = document.getElementsByTagName('body')[0].getElementsByClassName('m-sidenav')[0].getElementsByTagName('li');
-			// 	for (var i = 0; i < subSdNavLi.length; i++) {
-			// 		subSdNavLi[i].onclick = function(){
-			// 			var sdl = this.getElementsByTagName('dl')[0];
-			// 			console.log(sdl);
-			// 			sdl.style.display = "block";
-			// 		};
-			// 	}
-			// })();
-		</script>
 	</ul>
 </div>
 <script type="text/javascript">

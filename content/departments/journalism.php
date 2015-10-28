@@ -20,14 +20,16 @@
 		<div id="g-main">
 			<?php require_once '../../common/sidenav/sdnav_departments.php'; ?>
 			<div class="m-content">
-				<img src="<?php echo $siteurl;?>
-				images/aboutSJC.jpg" alt="About SJC" />
+				<img  class="fixed" src="<?php echo $siteurl;?>
+				images/departments.jpg" alt="Departments" />
 				<p class="u-location">
-					<a href="<?php echo $siteurl;?>content/intro/welcome.php">Departments</a>
+					<a href="<?php echo $siteurl;?>index.php">Home</a>
 					&nbsp;-&nbsp;
-					<a href="<?php echo $siteurl;?>content/intro/welcome.php">Journalism</a>
+					<a href="<?php echo $siteurl;?>content/departments/journalism.php">Departments</a>
+					&nbsp;-&nbsp;
+					<a href="<?php echo $siteurl;?>content/departments/journalism.php">Journalism</a>
 				</p>
-				<h2>The Departments of Journalism</h2>
+				<h2>Journalism</h2>
 				<div class="u-text">
 					<h3>Cultivation Goal</h3>
 					<p>

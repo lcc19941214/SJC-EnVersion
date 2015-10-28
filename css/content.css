@@ -119,7 +119,7 @@ text-decoration: underline;
 .m-right .u-academlist li{
 	padding-left: 80px;/*  25+ 54  */
 }
-.m-right .u-academlist li+li{
+.m-right .u-academlist li~li{
 	margin-top:30px;
 }
 .m-right .u-academlist li dl:hover dt{
@@ -128,19 +128,20 @@ text-decoration: underline;
 .m-right .u-academlist dt{
 	font-size: 18px;
 	font-weight: bold;
-	line-height: 24px;
+	line-height: 22px;
 	color: #287ea6;
 }
 .m-right .u-academlist dd{
 	margin-top: 4px;
 	/*  ellipsis  webkit  */
-	display: -webkit-box;    
+	/*display: -webkit-box;    
     -webkit-box-orient: vertical;
-	-webkit-line-clamp:2;
+	-webkit-line-clamp:1;*/
     /*  非webkit hack 用clampde的js方法  */
 	font-size: 14px;
-	line-height: 18px;
+	line-height: 16px;
 	color: #666;
+	white-space: nowrap;
 	overflow: hidden;
 	text-overflow:ellipsis;
 }

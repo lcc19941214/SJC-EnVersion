@@ -41,7 +41,9 @@
     height: 200px;
     overflow: hidden;
     text-overflow: clip;
-    font:700 32px/1.6em Georgia,Arial,Sans-Serif;
+    font-family: Georgia,Arial,Sans-Serif;
+    font-size: 32px;
+    line-height: 1.6em;
     text-align: right;
 }
 

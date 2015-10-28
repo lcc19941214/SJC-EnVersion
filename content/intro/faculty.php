@@ -20,19 +20,23 @@
 		<div id="g-main">
 			<?php require_once '../../common/sidenav/sdnav_aboutSJC.php'; ?>
 			<div class="m-content">
-				<img src="<?php echo $siteurl;?>
+				<img  class="fixed" src="<?php echo $siteurl;?>
 				images/aboutSJC.jpg" alt="About SJC" />
 				<p class="u-location">
+					<a href="<?php echo $siteurl;?>index.php">Home</a>
+					&nbsp;-&nbsp;
 					<a href="<?php echo $siteurl;?>content/intro/welcome.php">About SJC</a>
 					&nbsp;-&nbsp;
-					<a href="<?php echo $siteurl;?>content/intro/welcome.php">Faculty</a>
+					<a href="<?php echo $siteurl;?>content/intro/faculty.php">Faculty</a>
 				</p>
 				<h2>Faculty</h2>
 				<div class="u-text">
+
 					<h3 id="teachIns">Teaching Institutions</h3>
 					<h4>Professors and Associate Professors</h4>
 					<table class="professors">
 						<!-- row 41 column 5 -->
+
 						<tr>
 							<td class="name"> <strong>Name</strong>
 							</td>
@@ -49,98 +53,98 @@
 							</td>
 						</tr>
 						<tr>
-							<td>Yicheng Luo</td>
+							<td>Luo Yicheng</td>
 							<td>Professor</td>
 							<td>Journalism</td>
 							<td>Journalism Service</td>
 							<td>PHD supervisor, Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Bo Shan</td>
+							<td>Shan Bo</td>
 							<td>Professor</td>
 							<td>Journalism</td>
 							<td>Comparison of Chinese and Western news</td>
 							<td>PHD supervisor, Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Yibin Shi</td>
+							<td>Shi Yibin</td>
 							<td>Professor</td>
 							<td>Communication</td>
 							<td>Communication Theory</td>
 							<td>PHD supervisor, Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Jinhai Zhang</td>
+							<td>Zhang Jinhai</td>
 							<td>Professor</td>
 							<td>Communication</td>
 							<td>Advertising Communication，Media Management</td>
 							<td>PHD supervisor, Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Handong Wang</td>
+							<td>Wang Handong</td>
 							<td>Professor</td>
 							<td>Communication</td>
 							<td>Radio &amp; TV Broadcasting</td>
 							<td>PHD supervisor, Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Yuexin Qiang</td>
+							<td>Qiang Yuexin</td>
 							<td>Professor</td>
 							<td>Journalism, Communication</td>
 							<td>Journalism Service，Media Management</td>
 							<td>PHD supervisor, Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Qianfang Xia</td>
+							<td>Xia Qianfang</td>
 							<td>Professor</td>
 							<td>Journalism</td>
 							<td>Journalism Theory</td>
 							<td>PHD supervisor, Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Qiong Xia</td>
+							<td>Xia Qiong</td>
 							<td>Professor</td>
 							<td>Journalism</td>
 							<td>Journalism Service</td>
 							<td>PHD supervisor, Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Hua Ran</td>
+							<td>Ran Hua</td>
 							<td>Professor</td>
 							<td>Communication</td>
 							<td>Communication Theory</td>
 							<td>PHD supervisor, Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Shangbin Lv</td>
+							<td>Lv Shangbin</td>
 							<td>Professor</td>
 							<td>Communication</td>
 							<td>Research on media development</td>
 							<td>PHD supervisor, Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Liqun Liu</td>
+							<td>Liu Liqun</td>
 							<td>Professor</td>
 							<td>Communication</td>
 							<td>Digital Media,Development of  NewMedia</td>
 							<td>PHD supervisor, Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Ming Cheng</td>
+							<td>Cheng Ming</td>
 							<td>Professor</td>
 							<td>Communication</td>
 							<td>Advertising Communication</td>
 							<td>PHD supervisor, Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Xi Yao</td>
+							<td>Yao Xi</td>
 							<td>Professor</td>
 							<td>Communication</td>
 							<td>Advertising Communication</td>
 							<td>PHD supervisor, Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Xiang Zhou</td>
+							<td>Zhou Xiang</td>
 							<td>Professor</td>
 							<td>Journalism, Communication</td>
 							<td>
@@ -149,175 +153,175 @@
 							<td>PHD supervisor, Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Jianming Liu</td>
+							<td>Liu Jianming</td>
 							<td>Professor</td>
 							<td>Communication</td>
 							<td>Radio &amp; TV Broadcasting</td>
 							<td>PHD supervisor, Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Zhuo Zhang</td>
+							<td>Zhang Zhuo</td>
 							<td>Professor</td>
 							<td>Communication</td>
 							<td>Radio &amp; TV Broadcasting</td>
 							<td>PHD supervisor, Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Maojun Zhou</td>
+							<td>Zhou Maojun</td>
 							<td>Professor</td>
 							<td>Communication</td>
 							<td>Advertising Communication</td>
 							<td>PHD supervisor, Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Ying Chen</td>
+							<td>Chen Ying</td>
 							<td>Professor</td>
 							<td>Communication</td>
 							<td>Graphics and animation design</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Huwei Xie</td>
+							<td>Xie Huwei</td>
 							<td>Researcher</td>
 							<td>Journalism, Communication</td>
 							<td>Communication,Network Communication</td>
 							<td>PHD supervisor, Master's superviso</td>
 						</tr>
 						<tr>
-							<td>Guangming Zhou</td>
+							<td>Zhou Guangming</td>
 							<td>Professor</td>
 							<td>Journalism</td>
 							<td>History of Journalism Development</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Guanying Xia</td>
+							<td>Xia Guanying</td>
 							<td>Associate Professor</td>
 							<td>Communication</td>
 							<td>Radio &amp; TV Broadcasting</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Wei Zhang</td>
+							<td>Zhang Wei</td>
 							<td>Associate Professor</td>
 							<td>Communication</td>
 							<td>Advertising Communication</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Xiaohua Ye</td>
+							<td>Ye Xiaohua</td>
 							<td>Associate Professor</td>
 							<td>Journalism</td>
 							<td>Journalism Service</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Ce Peng</td>
+							<td>Peng Ce</td>
 							<td>Associate Professor</td>
 							<td>Communication</td>
 							<td>Advertising Communication</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Li Ji</td>
+							<td>Ji Li</td>
 							<td>Associate Professor</td>
 							<td>Communication</td>
 							<td>Communication Theory</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Jiewen Hong</td>
+							<td>Hong Jiewen</td>
 							<td>Associate Professor</td>
 							<td>Communication</td>
 							<td>Network Communication</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Xiaoman Li</td>
+							<td>Li Xiaoman</td>
 							<td>Associate Professor</td>
 							<td>Communication</td>
 							<td>Advertising Communication</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Jun Xiao</td>
+							<td>Xiao Jun</td>
 							<td>Associate Professor</td>
 							<td>Communication</td>
 							<td>Network Communication</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Jingxin Si</td>
+							<td>Si Jingxin</td>
 							<td>Associate Professor</td>
 							<td>Journalism</td>
 							<td>Journalism Service</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Man Yang</td>
+							<td>Yang Man</td>
 							<td>Associate Professor</td>
 							<td>Communication</td>
 							<td>Network Communication</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Songmao Wang</td>
+							<td>Wang Songmao</td>
 							<td>Associate Professor</td>
 							<td>Communication</td>
 							<td>Media Management</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Na Liu</td>
+							<td>Liu Na</td>
 							<td>Associate Professor</td>
 							<td>Communication</td>
 							<td>Radio &amp; TV Broadcasting</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Liling Zhou</td>
+							<td>Zhou Liling</td>
 							<td>Associate Professor</td>
 							<td>Communication</td>
 							<td>Advertising Communication</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Gang Chen</td>
+							<td>Chen Gang</td>
 							<td>Associate Professor</td>
 							<td>Journalism</td>
 							<td>Journalism Service</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Jie Lin</td>
+							<td>Lin Jie</td>
 							<td>Associate Professor</td>
 							<td>Journalism</td>
 							<td>History of Journalism</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Tongqian Xu</td>
+							<td>Xu Tongqian</td>
 							<td>Associate Professor</td>
 							<td>Communication</td>
 							<td>Media Management</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Qiong Wang</td>
+							<td>Wang Qiong</td>
 							<td>Associate Professor</td>
 							<td>Communication</td>
 							<td>Radio &amp; TV Broadcasting</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Bingyi Liao</td>
+							<td>Liao Bingyi</td>
 							<td>Associate Professor</td>
 							<td>Communication</td>
 							<td>Advertising Communication</td>
 							<td>Master's supervisor</td>
 						</tr>
 						<tr>
-							<td>Chaoyang Wang</td>
+							<td>Wang Chaoyang</td>
 							<td>Associate Professor</td>
 							<td>Communication</td>
 							<td>Network Communication</td>
@@ -327,26 +331,26 @@
 					<h4>Lecturers</h4>
 					<table class="lecturers">
 						<tr>
-							<td>Jinghui Liu</td>
-							<td>Xiaoyan Hou</td>
-							<td>Xue Liu</td>
-							<td>Jihua Liu</td>
+							<td>Liu Jinghui</td>
+							<td>Hou Xiaoyan</td>
+							<td>Liu Xue</td>
+							<td>Liu Jihua</td>
 						</tr>
 						<tr>
-							<td>GuangXu</td>
-							<td>Biao Peng</td>
-							<td>Yiqin Liu</td>
-							<td>Ye Wang</td>
+							<td>Xu Guang</td>
+							<td>Peng Biao</td>
+							<td>Liu Yiqin</td>
+							<td>Wang Ye</td>
 						</tr>
 						<tr>
-							<td>Xiaoli Yu</td>
-							<td>Yihong Dou</td>
-							<td>Minggui He</td>
-							<td>Liyin Zhang</td>
+							<td>Yu Xiaoli</td>
+							<td>Dou Yihong</td>
+							<td>He Minggui</td>
+							<td>Zhang Liyin</td>
 						</tr>
 						<tr>
-							<td>Shiwen Wu</td>
-							<td>Ming Chen</td>
+							<td>Wu Shiwen</td>
+							<td>Chen Ming</td>
 							<td></td>
 							<td></td>
 						</tr>
@@ -354,89 +358,89 @@
 					<h4>Adjunct Professors</h4>
 					<table class="adjPro">
 						<tr>
-							<td>Chen Wang</td>
-							<td>Guangchun Xu</td>
-							<td>Hanning Yin</td>
-							<td>Bing Feng</td>
+							<td>Wang Chen</td>
+							<td>Xu Guangchun</td>
+							<td>Yin Hanning</td>
+							<td>Feng Bing</td>
 						</tr>
 						<tr>
-							<td>Yanglue Huang</td>
-							<td>Zuosu Jiang</td>
-							<td>Yumin Wu</td>
-							<td>Xiaohong Fang</td>
+							<td>Huang Yanglue</td>
+							<td>Jiang Zuosu</td>
+							<td>Wu Yumin</td>
+							<td>Fang Xiaohong</td>
 						</tr>
 						<tr>
-							<td>Jiuzhou Liu</td>
-							<td>Jingyi Fan</td>
-							<td>Yijin Fan</td>
-							<td>Xingfeng Yang</td>
+							<td>Liu Jiuzhou</td>
+							<td>Fan Jingyi</td>
+							<td>Fan Yijin</td>
+							<td>Yang Xingfeng</td>
 						</tr>
 						<tr>
-							<td>Maoliang Wang</td>
-							<td>Xiaohan Hu</td>
-							<td>Tieqi Zhao</td>
-							<td>Changlin Ouyang</td>
+							<td>Wang Maoliang</td>
+							<td>Hu Xiaohan</td>
+							<td>Zhao Tieqi</td>
+							<td>Ouyan Changling</td>
 						</tr>
 						<tr>
-							<td>Zhilun Bi</td>
-							<td>Cheng Feng</td>
-							<td>Xiaofeng Xue</td>
-							<td>Haimin Wu</td>
+							<td>Bi Zhilun</td>
+							<td>Feng Cheng</td>
+							<td>Xue Xiaofeng</td>
+							<td>Wu Haimin</td>
 						</tr>
 						<tr>
-							<td>Zhiyou Lv</td>
-							<td>Hong Liao</td>
-							<td>Lanzhu Wang</td>
-							<td>Xuming Wang</td>
+							<td>Lv Zhiyou</td>
+							<td>Liao Hong</td>
+							<td>Wang Lanzhu</td>
+							<td>Wang Xuming</td>
 						</tr>
 						<tr>
-							<td>Hui Li</td>
-							<td>Bu Xu</td>
-							<td>Tong Zhu</td>
-							<td>Dongming Zhang</td>
+							<td>Li Hui</td>
+							<td>Xu Bu</td>
+							<td>Zhu Tong</td>
+							<td>Zhang Dongming</td>
 						</tr>
 						<tr>
-							<td>Dong Su</td>
-							<td>Guoming Xie</td>
-							<td>Xiangbin Liang</td>
-							<td>Xianqi Zou</td>
+							<td>Su Dong</td>
+							<td>Xie Guoming</td>
+							<td>Liang Xiangbin</td>
+							<td>Zou Xianqi</td>
 						</tr>
 						<tr>
-							<td>Huadong Cai</td>
-							<td>Huanrong Cao</td>
-							<td>Xiaohua Lu</td>
+							<td>Cai Huadong</td>
+							<td>Cao Huanrong</td>
+							<td>Lu Xiaohua</td>
 							<td></td>
 						</tr>
 					</table>
 					<h4>Guest Professors</h4>
 					<table class="guestPro">
 						<tr>
-							<td>Jinquan Li</td>
-							<td>Junhao Hong</td>
-							<td>Shaonan Li</td>
-							<td>Yili Pan</td>
+							<td>Li Jinquan</td>
+							<td>Hong Junhao</td>
+							<td>Li Shaonan</td>
+							<td>Pan Yili</td>
 						</tr>
 						<tr>
-							<td>Jianhua Zhu</td>
+							<td>Zhu Jianhua</td>
 							<td>Armand Mattelart</td>
-							<td>Jida Liang</td>
+							<td>Liang Jida</td>
 							<td>John Storey</td>
 						</tr>
 						<tr>
 							<td>Dan Schiller</td>
-							<td>Xinshu Zhao</td>
-							<td>Yuezhi Zhao</td>
-							<td>Wengang Lin</td>
+							<td>Zhao Xinshu</td>
+							<td>Zhao Yuezhi</td>
+							<td>Lin Wengang</td>
 						</tr>
 						<tr>
-							<td>Dajiu Li</td>
-							<td>Bangqin Fangli</td>
-							<td>Changle Liu</td>
-							<td>Cishan Ruan</td>
+							<td>Li Dajiu</td>
+							<td>Fangli Bangqin</td>
+							<td>Liu Changle</td>
+							<td>Ruan Cishan</td>
 						</tr>
 						<tr>
 							<td>Guijingzhaohong</td>
-							<td>Yali Zhao</td>
+							<td>Zhao Yali</td>
 							<td></td>
 							<td></td>
 						</tr>
@@ -460,25 +464,25 @@
 						</tr>
 						<tr>
 							<td>Director</td>
-							<td>Xueqin Ding</td>
+							<td>Ding Xueqin</td>
 							<td>Room 205</td>
 							<td>(027)68754673</td>
 						</tr>
 						<tr>
 							<td>Vice Director</td>
-							<td>Zhongyuan Zheng</td>
+							<td>Zheng Zhongyuan</td>
 							<td>Room 205</td>
 							<td>(027)68754207</td>
 						</tr>
 						<tr>
 							<td>Secretary</td>
-							<td>Feng Zhang</td>
+							<td>Zhang Feng</td>
 							<td>Room 205</td>
 							<td>(027)68752111</td>
 						</tr>
 						<tr>
 							<td>Accountant</td>
-							<td>Shengying Huang</td>
+							<td>Huang Shengying</td>
 							<td>Room 204</td>
 							<td>(027)68753525</td>
 						</tr>
@@ -501,25 +505,25 @@
 						</tr>
 						<tr>
 							<td>Director</td>
-							<td>Siwei Liu</td>
+							<td>Liu Siwei</td>
 							<td>Room 104</td>
 							<td>(027)68752685</td>
 						</tr>
 						<tr>
 							<td>Vice Director</td>
-							<td>Juping Chen</td>
+							<td>Chen Juping</td>
 							<td>Room 104</td>
 							<td>(027)68752685</td>
 						</tr>
 						<tr>
 							<td>Teaching Secretary</td>
-							<td>Li Yang</td>
+							<td>Yang Li</td>
 							<td>Room 105</td>
 							<td>(027)68754209</td>
 						</tr>
 						<tr>
 							<td>Teaching Secretary</td>
-							<td>Xiumei Lu</td>
+							<td>Lu Xiumei</td>
 							<td>Room 105</td>
 							<td>(027)68754209</td>
 						</tr>
@@ -542,19 +546,19 @@
 						</tr>
 						<tr>
 							<td>Director</td>
-							<td>Xiaoqin Shuai</td>
+							<td>Shuai Xiaoqin</td>
 							<td>Room 307</td>
 							<td>(027)68752684</td>
 						</tr>
 						<tr>
 							<td>Vice Director</td>
-							<td>Panpan Cheng</td>
+							<td>Cheng Panpan</td>
 							<td>Room 307</td>
 							<td>(027)68752684</td>
 						</tr>
 						<tr>
 							<td>Student Advisor</td>
-							<td>Jingcao Xiao</td>
+							<td>Xiao Jingcao</td>
 							<td>Room 307</td>
 							<td>(027)68752684</td>
 						</tr>
@@ -577,31 +581,31 @@
 						</tr>
 						<tr>
 							<td>Director</td>
-							<td>Xi Yao</td>
+							<td>Yao Xi</td>
 							<td>Room 130</td>
 							<td>(027)68754233</td>
 						</tr>
 						<tr>
 							<td>Vice Director</td>
-							<td>Zhen Zhu</td>
+							<td>Zhu Zhen</td>
 							<td>Room 302</td>
 							<td>(027)68752098</td>
 						</tr>
 						<tr>
 							<td>Vice Director</td>
-							<td>Hanluo Cai</td>
+							<td>Cai Hanluo</td>
 							<td>Room 302</td>
 							<td>(027)68752098</td>
 						</tr>
 						<tr>
 							<td>Secretary</td>
-							<td>Zhenhua Ni</td>
+							<td>Ni Zhenhua</td>
 							<td>Room 302</td>
 							<td>(027)68752098</td>
 						</tr>
 						<tr>
 							<td>Secretary</td>
-							<td>Huan Zhang</td>
+							<td>Zhang Huan</td>
 							<td>Room 302</td>
 							<td>(027)68752098</td>
 						</tr>
@@ -625,13 +629,13 @@
 						</tr>
 						<tr>
 							<td>Director</td>
-							<td>Yuexin Qiang</td>
+							<td>Qiang Yuexin</td>
 							<td>Room 231</td>
 							<td>(027)68754210</td>
 						</tr>
 						<tr>
 							<td>Vice Director</td>
-							<td rowspan="2">Ping Fu</td>
+							<td rowspan="2">Fu Ping</td>
 							<td rowspan="2">Room 137</td>
 							<td rowspan="5">(027)68754339</td>
 						</tr>
@@ -640,17 +644,17 @@
 						</tr>
 						<tr>
 							<td>Broadcast Editorial Office</td>
-							<td>Shuang He</td>
+							<td>He Shuang</td>
 							<td>Room 237</td>
 						</tr>
 						<tr>
 							<td>Television Editorial Office</td>
-							<td>Zhengming Zhao, Shuang He</td>
+							<td>Zhao Zhengming, He Shuang</td>
 							<td>Room 236</td>
 						</tr>
 						<tr>
 							<td>Multi-Media Labs</td>
-							<td>Shujin Dai</td>
+							<td>Dai Shujin</td>
 							<td>Room 207</td>
 						</tr>
 					</table>
@@ -672,18 +676,18 @@
 						</tr>
 						<tr>
 							<td>Director</td>
-							<td>Zhiping Luo</td>
+							<td>Luo Zhiping</td>
 							<td>Room F101</td>
 							<td rowspan="3">(027)68754196</td>
 						</tr>
 						<tr>
 							<td>librarian</td>
-							<td>Ping Yu</td>
+							<td>Yu Ping</td>
 							<td>Room F101</td>
 						</tr>
 						<tr>
 							<td>librarian</td>
-							<td>Jingcao Xiao</td>
+							<td>Gan Wen</td>
 							<td>Room F102</td>
 						</tr>
 					</table>

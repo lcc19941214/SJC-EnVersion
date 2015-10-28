@@ -20,12 +20,14 @@
 		<div id="g-main">
 			<?php require_once '../../common/sidenav/sdnav_aboutSJC.php'; ?>
 			<div class="m-content">
-				<img src="<?php echo $siteurl;?>
+				<img  class="fixed" src="<?php echo $siteurl;?>
 				images/aboutSJC.jpg" alt="About SJC" />
 				<p class="u-location">
+					<a href="<?php echo $siteurl;?>index.php">Home</a>
+					&nbsp;-&nbsp;
 					<a href="<?php echo $siteurl;?>content/intro/welcome.php">About SJC</a>
 					&nbsp;-&nbsp;
-					<a href="<?php echo $siteurl;?>content/intro/welcome.php">SJC in History</a>
+					<a href="<?php echo $siteurl;?>content/intro/history.php">SJC in History</a>
 				</p>
 				<h2>SJC in History</h2>
 				<div class="u-text">
@@ -78,10 +80,6 @@
 				</div>
 			</div>
 		</div>
-		<!-- MainEnds -->
 	</div>
-	<!-- FooterBegins footer在container之后-->
-	<?php require_once "../../common/footer.php"; ?>
-	<!-- FooterEnds -->
-</body>
+	<?php require_once "../../common/footer.php"; ?></body>
 </html>

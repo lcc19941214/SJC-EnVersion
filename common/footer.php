@@ -6,3 +6,5 @@
 		Copyright © 2004-2013 School of Journalism and Communication, Wuhan University. All Rights Reserved
 	</p>
 </div>
+<script type="text/javascript" src="<?php echo $siteurl ?>js/showSubNav.js">
+</script>
