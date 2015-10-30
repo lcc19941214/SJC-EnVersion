@@ -1,3 +1,7 @@
+html{
+	position: relative;
+}
+
 #g-footer{
 	position: absolute;
 	left: 0;

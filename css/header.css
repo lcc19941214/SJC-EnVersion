@@ -6,8 +6,8 @@
  */
 
 body{
-	position: relative;
-	padding-bottom: 70px;
+	/*position: relative;*/
+	padding-bottom: 100px;
 	background: url(../images/body-bgimg.png) repeat-x ; 
 }
 
@@ -16,7 +16,7 @@ body{
 	width: 980px;
 	/*  height: 不设置高度  */
 	margin: 0 auto;
-	padding-bottom: 60px;
+	padding: 0 100px 60px 100px ;
 }
 
 #g-header{
