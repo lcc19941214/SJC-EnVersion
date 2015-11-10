@@ -1,0 +1,335 @@
+/*
+ * Style
+ */
+.g-top-header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 60px;
+	padding: 0 40px;
+	box-sizing: border-box;
+	background-color: #287ea6;
+}
+.u-logo{
+	float: left;
+	margin-top: 12px;
+	width: 308px;
+	height: 35px;
+	background-image: url("../images/logo.png");
+}
+/*.u-logo a{
+	display: block;
+	width: inherit;
+	height: inherit;
+}*/
+.u-state{
+	float: right;
+	padding-right: 95px;
+	font-size: 14px;
+	line-height: 60px;
+	color: #fff;
+}
+.u-state .u-logout{
+	position: absolute;
+	top:17px;
+	right: 40px;
+	display: inline-block;
+	width: 77px;
+	height: 26px;
+	border-radius: 50px;
+	border:none;
+	outline: none;
+	background-color: #1A4E7D;
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	line-height: 24px;
+	color: #fff;
+	text-align: center;
+}
+.u-state .u-logout:active{
+	background-color: #133A5E;
+}
+.g-sdnav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 998;
+	box-sizing: border-box;
+	padding-top: 60px;
+	width: 10%;
+	height: 100%;
+	background-color: #ccc;
+}
+.g-sdnav .m-sdnav li{
+	padding: 30px 0 26px 0;
+	height: 74px;
+	min-height: 74px;
+	text-align: center;
+	cursor: pointer;
+}
+.g-sdnav .m-sdnav .u-nav-icon{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-image: url("../images/css_sprite.png");
+	background-repeat: no-repeat;
+}
+.m-sdnav li:nth-child(1) .u-nav-icon{
+	background-position: 12px -52px;
+}
+.m-sdnav li:nth-child(2) .u-nav-icon{
+	background-position: -41px -51px;
+}
+.m-sdnav li:nth-child(3) .u-nav-icon{
+	background-position: -98px -51px;
+}
+/*  hover  */
+.m-sdnav li:hover{
+	background: url("../images/side_bg_hover.png") repeat-x;
+}
+/*  current */
+.m-sdnav li.current{
+	background: url("../images/side_bg_current.png") repeat-x;
+	color: #fff;
+	text-shadow:1px 1px 0 #666;
+}
+.m-sdnav li.current:nth-child(1) .u-nav-icon{
+	background-position: 12px 6px;
+}
+.m-sdnav li.current:nth-child(2) .u-nav-icon{
+	background-position: -41px 6px;
+}
+.m-sdnav li.current:nth-child(3) .u-nav-icon{
+	background-position: -98px 6px;
+}
+
+.g-content{
+	position: absolute;
+	top: 60px;
+	left:10%;
+	padding-top: 30px;
+	padding-right: 80px;
+	padding-left: 80px;
+	box-sizing:border-box;
+	width: 90%;
+	font-family:Helvetica,Arial,"Microsoft Yahei",sans Serif;
+}
+.g-content .m-newslist,.g-content .m-academlist{
+	/*display: none;*/
+}
+.m-content{
+	float: left;
+	width: 100%;
+	margin-bottom: 50px;
+}
+/*.g-content .m-newslist.current,.g-content .m-acdemlist.current{
+	display: block;
+}*/
+.g-content h2{
+	padding-bottom: 7px;
+	margin-bottom: 18px;
+	border-bottom: 3px solid #ddd;
+	font-size:24px;
+	line-height: 1.4em;
+	font-weight: normal;
+	letter-spacing: 2px;
+	color: #333;
+}
+.g-content .u-list li{/*  单条记录里所有的li  */
+	font-size:16px;
+	line-height: 1.6em;
+	color: #666;
+}
+.g-content .u-list .u-l-news{/*  新闻部分  */
+	position: relative;
+	float: left;
+	padding-right: 20px;
+	/*border-right: 1px solid #666;*/
+	width: 720px;
+}
+.g-content .u-list .u-l-news li{
+	display: inline-block;
+}
+.g-content .u-list i{/* circle  */
+	position: absolute;
+	top:10px;
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	border-radius: 8px;
+	background-color: #287ea6;
+}
+.g-content .u-list .u-newstitle{/*  标题  */
+	padding-left: 12px;
+	width: 600px;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.g-content .u-list .u-l-news:hover .u-newstitle{
+	text-decoration: underline;
+}
+.g-content .u-list .u-newsdate{/*  日期  php截断  */
+	float: right;
+}
+.g-content .u-list .u-r-tool{/*  编辑工具  */
+	position:relative;
+	float: left;
+}
+.g-content .u-list .u-r-tool li{
+	position: relative;
+	display: inline-block;
+}
+.g-content .u-list .u-r-tool a{
+	text-decoration:none;
+	color:#666;
+}
+.g-content .u-list .u-r-tool li+li{
+	padding-left: 23px;
+	margin-left: 14px;
+}
+.g-content .u-r-tool span{
+	position: absolute;
+	top:5px;
+	left: 0;
+	display: inline-block;
+	width: 17px;
+	height: 16px;
+	background-color: transparent;
+	background-image: url("../images/css_sprite.png");
+}
+.g-content .u-r-tool li:nth-child(2) span{/*  编辑  */
+	background-position: 0px -115px;
+}
+.g-content .u-r-tool li:nth-child(2) a:hover{
+	color:#287ea6;
+	text-shadow:1px 1px 0 #ddd;
+}
+.g-content .u-r-tool li:nth-child(3) span{/*  删除  */
+	background-position: -25px -115px;
+}
+.g-content .u-r-tool li:nth-child(3) a:hover{
+	color:#a63408;
+	text-shadow:1px 1px 0 #ddd;
+}
+.g-content .u-r-tool li:nth-child(4) span{/*  置顶  */
+	background-position: -50px -115px;
+}
+.g-content .u-r-tool li:nth-child(4) a:hover{
+	color:#009944;
+	text-shadow:1px 1px 0 #ddd;
+}
+.g-content .u-r-tool .u-confirm{/*  验证  */
+	display:none;
+	position:absolute;
+	top:100px;
+	left:100px;
+	border:1px solid #ddd;
+	padding:10px;
+	width:200px;
+	height:100px;
+	background-color:#fff;
+}
+/*  编辑器  */
+.g-content .u-edit{
+	font-size: 16px;
+}
+.g-content .u-edit li{
+	margin-bottom: 20px;
+}
+.g-content li.u-edit-1,.g-content li.u-edit-2{/* 输入类1  封面图片2*/
+	position: relative;
+	padding-left: 5em;
+}
+.g-content li.u-edit-1 span,.g-content li.u-edit-2 span{/*  表达说明  */
+	position: absolute;
+	top:-1px;
+	left: 0;
+	display: inline-block;
+	width: 4em;
+	text-align: right;
+}
+.g-content li.u-edit-1:first-child span{
+	top:0px;
+}
+.g-content .u-edit input,.g-content .u-edit select{
+	display: inline-block;
+	outline: none;
+	box-sizing:border-box;
+	font-size: 16px;
+	font-family:Calibri,Helvetica,Arial,"Microsoft Yahei",sans Serif;
+	color:#333;
+	border:none;
+}
+.g-content .u-edit li.u-edit-1 .z-edit-input{/* 输入框焦点判断  */
+	width: 290px;
+	padding:0 10px 7px;
+	background: transparent url("../images/input_line.png") left bottom no-repeat;
+}
+.g-content .u-edit input.z-edit-input.current{
+	background-image: url('../images/input_line_current.png');
+	color: #287ea6;
+}
+.g-content .u-edit select{
+	height: 28px;
+	padding:0 10px 7px;
+	background: transparent url("../images/input_line.png") left bottom no-repeat;
+}
+.g-content li.u-edit-2 i{/*  选择文件  */
+	font-style: normal;
+	color: #aaa;
+}
+.g-content .u-edit li.u-edit-1 .z-edit-radio{/*  置顶选项  */
+	margin-right: 5px;
+	width: 16px;
+	height: 16px;
+	vertical-align: top;
+}
+.g-content .u-edit li.u-edit-1 i{/*  制造间隔  */
+	display: inline-block;
+	width: 10px;
+}
+/*.g-content li.u-edit-2 a{/*  选择文件  */
+/*	
+	position: relative;
+	display: block;
+	width: 146px;
+	height: 30px;
+	border:1px solid #999;
+	overflow: hidden;
+}*/
+
+.g-content li.u-edit-2 input{
+	/*position: absolute;
+	top:0;
+	left: 0;
+	height: 30px;
+	opacity:0; 
+	filter:alpha(opacity=0);
+*/}
+.g-content li.u-edit-3 input{/*  提交与取消  */
+	margin-right: 1em;
+	border:1px solid #999;
+	width: 4em;
+	height: 40px;
+	background-image: none;
+}
+.g-content li.u-edit-3 input:first-child{/*  提交  */
+	border:none;
+	background-color: #287ea6;
+	color: #eee;
+}
+.g-content li.u-edit-3 input:first-child:hover{
+	background: #1C5571;
+}
+.g-content li.u-edit-3 input:first-child:active{
+	background: #174860;
+}
+.g-content li.u-edit-3 input:last-child{/*  重写  */
+	background-color: #dedede;
+}
+.g-content li.u-edit-3 input:last-child:hover{
+	background-color: #ccc;
+}

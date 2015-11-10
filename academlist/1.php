@@ -20,7 +20,7 @@
 		<div id="g-main">
 			<?php require_once '../common/sidenav/sdnav_academlist.php'; ?>
 			<div class="m-content">
-				<img src="<?php echo $siteurl;?>
+				<img  class="fixed"  src="<?php echo $siteurl;?>
 				images/academlist.jpg" alt="About SJC" />
 				<p class="u-location">
 					<a href="<?php echo $siteurl;?>content/intro/welcome.php">Academics &amp; Research</a>

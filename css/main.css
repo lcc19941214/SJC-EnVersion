@@ -1,3 +1,11 @@
+/*
+ *  文章内容页面
+ *  固定文章 aboutSJC administration academic&research
+ *  newslist & academlist -> index.php, content.php
+ *  
+ *  正文内图片，用js检测img，然后自动添加父节点，设置父节点class
+ */
+
 #g-main{
 	position: relative;
 	padding-left: 260px;
@@ -42,7 +50,7 @@
 	margin-bottom: 10px;
 }
 .m-sidenav ul dl{
-	/*display: none;*/
+	display: none;
 }
 .m-sidenav ul li a{
 	display: block;
@@ -70,25 +78,33 @@
 #g-main .m-content{
 
 }
-.m-content img{
+.m-content img.fixed{/*  固定内容 长条图片  */
 	width: 720px;
 	height: 130px;
 	margin-bottom: 20px;
 }
-.m-content .u-location{
+.m-content .u-location{/*  当前位置  */
 	/*margin-bottom: 20px;*/
 }
 .m-content .u-location a{
 	font-size: 12px;
 	color:#777;
 }
-.m-content h2{
+.m-content h2{/*  正文大标题  */
 	border-bottom: 1px solid #ccc;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	font-size: 28px;
 	line-height: 2em;
 	font-weight: 400;
 	color: #2f4f69;
+}
+.m-content h3{/*  作者 发布时间 -> span */
+	font-size: 14px; 
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.m-content h3 span+span{
+	margin-left: 2em;
 }
 .m-content .u-text h3, .m-content .u-text h4, .m-content .u-text p, .m-content .u-text table, .m-content .u-text dl{
 	margin-bottom: 20px;
@@ -109,6 +125,7 @@
 	font-size: 16px;
 	line-height: 28px;
 }
+/*  BEGIN 学术内容  &  固定文章*/
 .m-content .u-text table{
 	width: 100%;
 	border-collapse: collapse;
@@ -146,12 +163,23 @@
 	line-height: 2em;
 	color: #666;
 }
+/*  END 学术部分 & 固定内容  */
 .m-content .u-text ul.forum{
 	padding-left: 20px;
 	border-left: 4px solid #ccc;
 }
 .m-content .u-text ul.forum~.forum{
 	margin-top: 30px;
+}
+.m-content .u-text .u-img{
+	/*  
+	 *  content内图片用div.u-img包裹，添加父节点
+	 */
+	text-align: center;
+	margin-bottom: 20px;
+}
+.m-content .u-text .u-img img{
+	width: 600px;
 }
 .m-content .u-list{
 	padding-top: 30px;

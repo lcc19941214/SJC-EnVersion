@@ -6,48 +6,68 @@
 		</span>
 	</h2>
 	<dl class="u-recomm">
-		<a href="javascript:;">
-			<img src="<?php echo $siteurl ; ?>images/news01.jpg" alt="news &amp; information" /></a>
-		<a href="javascript:;">
-			<h3>The Speech about Learing from Xi Ended Successfully</h3>
+		<?php 
+			$sql = "SELECT DISTINCT new_id,news_title,news_content,news_date FROM newslist ORDER BY news_id DESC";
+			$sql = $sql." LIMIT 0,1";//获取从第一条，做小推荐位
+			$result = mysql_query($sql,$lnk);
+		 ?>
+		<a href="<?php echo $siteurl;?>newslist/1.php">
+			<img src="<?php echo $siteurl ; ?>newslist/images/1.jpg" alt="news &amp; information" /></a>
+		<a href="<?php echo $siteurl;?>newslist/1.php">
+			<h3 class="u-recoomHd">
+				The national New Media and Broadcasting &amp; Television Doctoral Forum of WHU Inaugurated
+			</h3>
 		</a>
 		<p class="u-recoomText">
-			A team at Wuhan University won the championship at 2015 Modal APEC held from 24th to 27th August at Beijing International is opening up once A team at Wuhan University won the championship at 2015 Modal APEC held from 24th to 27th August at Beijing International is opening up once
+			On October 10, 2015, "The national New Media and Broadcasting &amp; Television Doctoral Forum of WHU" and "The 6th Central China’s Journalism and Communication Academic Forum of postgraduates" were inaugurated smoothly in Journalism and Communication , WHU.
 		</p>
 	</dl>
 	<ul class="u-newslist">
-		<li>
-			<a href="javascript:;">
+		<?php 
+			$sql = "SELECT DISTINCT news_id,news_title,news_date FROM newslist ORDER BY news_id DESC";
+			$sql = $sql." LIMIT 1,5";//获取从第二条开始的一共五条  第一条做小推荐位
+			$result = mysql_query($sql,$lnk);
+			while ( $news_info = mysql_fetch_array($result)) {
+			echo "
+			<li>
+				<a href=".$siteurl."newslist/2.php?id=".$news_info['news_id'].">"."
+					<p>
+						<i></i>".
+						$news_info["news_title"]."
+					</p>"."
+					<span class='u-newsdate'>".substr($news_info["news_date"],0,10)."</span>
+				</a>
+			</li>
+			";
+			}
+		?>
+		<!-- <li>
+			<a href="<?php echo $siteurl;?>
+				newslist/3.php">
 				<p> <i></i>
-					Professor Xin Xu's Artical on Bird Analysis Published on Professor Xin Xu's Artical on Bird Analysis Published on
+					LOVE IN SJC----the Welcome party for undergraduates holding favorably
 				</p>
-				<span class="u-newsdate">12 October ,2015</span>
+				<span class="u-newsdate">29 Sept. 2015</span>
 			</a>
 		</li>
 		<li>
-			<a href="javascript:;">
-				<p> <i></i>
-					Academician Roger Owen Talks about Finite Element Professor Xin Xu's Artical on Bird Analysis Published on
-				</p>
-				<span class="u-newsdate">12 October ,2015</span>
-			</a>
-		</li>
-		<li>
-			<a href="javascript:;">
+			<a href="<?php echo $siteurl;?>
+				newslist/4.php">
 				<p>
 					<i></i>
-					Professor Gong Jianya Leads Chinese First International Professor Xin Xu's Artical on Bird Analysis Published on
+					Baidu EFE Talks About Internet and Data News
 				</p>
-				<span class="u-newsdate">12 October ,2015</span>
+				<span class="u-newsdate">18 Sept. 2015</span>
 			</a>
 		</li>
 		<li>
-			<a href="javascript:;">
+			<a href="<?php echo $siteurl;?>
+				newslist/5.php">
 				<p>
 					<i></i>
-					The Famous Chemist Yaghi Lectures on New Materials Professor Xin Xu's Artical on Bird Analysis Published on
+					School of Journalism and Communication Welcomes New Students
 				</p>
-				<span class="u-newsdate">12 October ,2015</span>
+				<span class="u-newsdate">12 Sept. 2015</span>
 			</a>
 		</li>
 		<li>
@@ -56,8 +76,8 @@
 					<i></i>
 					Remote Sensing Research of Syria Conflict on UN’s Briefing Professor Xin Xu's Artical on Bird Analysis Published on
 				</p>
-				<span class="u-newsdate">12 October ,2015</span>
+				<span class="u-newsdate">12 Sept. 2015</span>
 			</a>
-		</li>
+		</li> -->
 	</ul>
 </div>

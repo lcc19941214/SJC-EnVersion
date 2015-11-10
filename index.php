@@ -22,23 +22,27 @@
 			<div id="g-slide" class="webwidget_slideshow_dot">
 				<ul>
 					<li>
-						<a href="javascript:;" title="Deng Kaiyuan: A Rocking Dream Chaser">
+						<a href="<?php echo $siteurl;?>
+							newslist/1.php" title="The national New Media and Broadcasting &amp; Television Doctoral Forum of WHU Inaugurated">
 							<img src="images/slideshow/slide_1.jpg" alt="slideshow/slide"/>
 						</a>
 					</li>
 					<li>
-						<a href="javascript:;" title="We Now Get A Wonderful Achievement">
-							<img src="images/slideshow/slide_2.jpg" alt="slideshow/slide"/>
+						<a href="<?php echo $siteurl;?>
+							newslist/2.php" title="Professor Mark Balnaves from “New Sinology Plan” had speeches about social media">
+							<img src="newslist/images/2.jpg" alt="slideshow/slide"/>
 						</a>
 					</li>
 					<li>
-						<a href="javascript:;" title="A Rocking Dream Chaseeng Kaiyuan">
-							<img src="images/slideshow/slide_3.jpg" alt="slideshow/slide"/>
+						<a href="<?php echo $siteurl;?>
+							newslist/3.php" title="LOVE IN SJC----the Welcome party for undergraduates holding favorably">
+							<img src="newslist/images/3_1.jpg" alt="slideshow/slide"/>
 						</a>
 					</li>
 					<li>
-						<a href="javascript:;" title="A Wonderful Achievement We Now Get A Wonderful Achievement We Now Get ">
-							<img src="images/slideshow/slide_4.jpg" alt="slideshow/slide"/>
+						<a href="<?php echo $siteurl;?>
+							newslist/4.php" title="Baidu EFE Talks About Internet and Data News">
+							<img src="newslist/images/10.jpg" alt="slideshow/slide"/>
 						</a>
 					</li>
 				</ul>
@@ -64,9 +68,11 @@
 			<?php require_once 'common/u_newslist.php'; ?>
 			<script type="text/javascript" src="js/clamp.js"></script>
 			<script type="text/javascript">
-				var recoomText = document.getElementById('g-content').getElementsByClassName('u-recoomText')[0],
+				var recoomHd =	document.getElementById('g-content').getElementsByClassName('u-recoomHd')[0],
+					recoomText = document.getElementById('g-content').getElementsByClassName('u-recoomText')[0],
             		academText = document.getElementsByTagName('body')[0].getElementsByClassName('u-academlist')[0].getElementsByTagName('dd');
         		
+        		$clamp(recoomHd, {clamp: 2, useNativeClamp: false});
         		$clamp(recoomText, {clamp: 4, useNativeClamp: false});
         		// for (var i = 0; i < academText.length; i++) {
         		// 	$clamp(academText[i], {clamp: 1, useNativeClamp: false});

@@ -1,9 +1,5 @@
-<!-- 
-	*区别中文版网站，url地址必须写全
-	*修改department和research的地址
- -->
-
 <div id="g-header">
+	<div class="u-header-bg"></div>
 	<a href="http://journal.whu.edu.cn/en/index.php">
 		<img src="<?php echo $siteurl; ?>images/logo.png" alt="School of Journalism and Communication of Wuhan University">
 	</a>

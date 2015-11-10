@@ -1,18 +1,25 @@
 <div class="m-sidenav m-sidenav-fixed">
 	<h3>
-		<a href="<?php echo $siteurl;?>content/departments/labs.php"> <i></i>
+		<a href="<?php echo $siteurl;?>
+			content/departments/labs.php"> <i></i>
 			Contact Us
 		</a>
 	</h3>
 	<ul>
 		<li>
-			<a href="<?php echo $siteurl;?>content/academics/labs.php">LABS &amp; Research Centers</a>
+			<a href="javascript:;"><strong>Tel:</strong> 0086 27 68752658</a>
 		</li>
 		<li>
-			<a href="<?php echo $siteurl;?>content/academics/exchanges.php">Academic Exchanges</a>
+			<a href="javascript:;"><strong>Fax:</strong> 0086 27 68754677</a>
 		</li>
 		<li>
-			<a href="<?php echo $siteurl;?>content/academics/journals.php">Academic Journals</a>
+			<a href="javascript:;"><strong>Post Code:</strong> 430072</a>
+		</li>
+		<li>
+			<a href="javascript:;"><strong>E-mail:</strong> sjcweb@whu.edu.cn</a>
+		</li>
+		<li>
+			<a href="javascript:;"><strong>Address:</strong> <br>Yingyuan Road, Luojia Hill, Hongshan District, Wuhan, Hubei Province, China</a>
 		</li>
 	</ul>
 </div>

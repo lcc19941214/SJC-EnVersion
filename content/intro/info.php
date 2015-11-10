@@ -6,7 +6,8 @@
 	<title>About SJC | School of Journalism and Communication of Wuhan University</title> 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="School of Journalism and Communication of Wuhan University" />
-	<link href="<?php echo $siteurl;?>favicon.ico" rel="icon" type="image/x-icon" />
+	<link href="<?php echo $siteurl;?>
+	favicon.ico" rel="icon" type="image/x-icon" />
 	<link rel="stylesheet" href="../../css/reset.css" />
 	<link rel="stylesheet" href="../../css/header.css" />
 	<link rel="stylesheet" href="../../css/footer.css" />
@@ -19,11 +20,14 @@
 		<div id="g-main">
 			<?php require_once '../../common/sidenav/sdnav_aboutSJC.php'; ?>
 			<div class="m-content">
-				<img src="<?php echo $siteurl;?>images/aboutSJC.jpg" alt="About SJC" />
+				<img  class="fixed" src="<?php echo $siteurl;?>
+				images/aboutSJC.jpg" alt="About SJC" />
 				<p class="u-location">
+					<a href="<?php echo $siteurl;?>index.php">Home</a>
+					&nbsp;-&nbsp;
 					<a href="<?php echo $siteurl;?>content/intro/welcome.php">About SJC</a>
 					&nbsp;-&nbsp;
-					<a href="<?php echo $siteurl;?>content/intro/welcome.php">General Information</a>
+					<a href="<?php echo $siteurl;?>content/intro/info.php">General Information</a>
 				</p>
 				<h2>General Information</h2>
 				<div class="u-text">
@@ -55,6 +59,5 @@
 			</div>
 		</div>
 	</div>
-	<?php require_once "../../common/footer.php"; ?>
-</body>
+	<?php require_once "../../common/footer.php"; ?></body>
 </html>

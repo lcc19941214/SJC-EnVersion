@@ -45,20 +45,6 @@
 				</dd>
 			</dl>
 		</li>
-		<!-- 点击加载子菜单项 -->
-		<!-- 同页面内，点击加载内容，js生效 -->
-		<script type="text/javascript">
-			// (function(){
-			// 	var subSdNavLi = document.getElementsByTagName('body')[0].getElementsByClassName('m-sidenav')[0].getElementsByTagName('li');
-			// 	for (var i = 0; i < subSdNavLi.length; i++) {
-			// 		subSdNavLi[i].onclick = function(){
-			// 			var sdl = this.getElementsByTagName('dl')[0];
-			// 			console.log(sdl);
-			// 			sdl.style.display = "block";
-			// 		};
-			// 	}
-			// })();
-		</script>
 	</ul>
 </div>
 <script type="text/javascript">

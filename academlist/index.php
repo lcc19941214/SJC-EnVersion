@@ -20,7 +20,7 @@
 		<div id="g-main">
 			<?php require_once '../common/sidenav/sdnav_academlist.php'; ?>
 			<div class="m-content">
-				<img src="<?php echo $siteurl;?>
+				<img  class="fixed" src="<?php echo $siteurl;?>
 				images/academlist.jpg" alt="About SJC" />
 				<p class="u-location">
 					<a href="<?php echo $siteurl;?>content/intro/welcome.php">Academics &amp; Research</a>
@@ -29,6 +29,22 @@
 				</p>
 				<div class="u-list">
 					<ul class="u-academlist">
+					<!-- 获取学术信息列表 -->
+					<?php 
+						// 获取学术信息列表
+						$academ_sql = "SELECT news_id,news_title,news_date FROM academlist ORDER BY news_id DESC";
+						$academ_result = mysql_query($academ_sql,$lnk);
+						while($academ_list = mysql_fetch_array($academ_result))
+						{
+							echo "
+								<li> <i></i>
+									<a href='".$siteurl."academlist/content.php?news_id=".$academ_list["news_id"]."' target='_blacnk'>".$academ_list["news_title"]."
+										<span>".substr($academ_list["news_date"], 0,10)."</span>
+									</a>
+								</li>
+							";
+						}
+					?>
 						<li> <i></i>
 							<a href="<?php echo $siteurl;?>academlist/1.php" target="_blank">WHU, Media academic salon in autumn
 								<span>2015-10-26</span>
